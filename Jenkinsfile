@@ -40,9 +40,9 @@ pipeline {
     post {
         success {
             echo 'Pipeline completed successfully!'
-            mail to: 'ahmedamrabdelsalam@gmail.com',
-                 subject: "Jenkins Build SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: 'The pipeline completed successfully.'
+            // mail to: 'ahmedamrabdelsalam@gmail.com',
+            //      subject: "Jenkins Build SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+            //      body: 'The pipeline completed successfully.'
 
             // Teams notification example:
             // office365ConnectorSend webhookUrl: 'https://outlook.office.com/webhook/....',
@@ -50,9 +50,9 @@ pipeline {
         }
         failure {
             echo 'Pipeline failed. Check the logs for errors.'
-            mail to: 'ahmedamrabdelsalam@gmail.com',
-                 subject: "Jenkins Build FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: 'The pipeline failed. Please check the Jenkins console output.'
+            // mail to: 'ahmedamrabdelsalam@gmail.com',
+            //      subject: "Jenkins Build FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+            //      body: 'The pipeline failed. Please check the Jenkins console output.'
 
             // Teams notification example:
             // office365ConnectorSend webhookUrl: 'https://outlook.office.com/webhook/....',
