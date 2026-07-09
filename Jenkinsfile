@@ -23,15 +23,15 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling code and building artifact...'
-                docker-compose up
-                echo 'Docker Compose Ran successfully'
+                sh 'docker-compose up -d'
+                echo 'Docker Compose ran successfully'
             }
         }
 
         stage('Integrate & Test') {
             steps {
                 echo 'Running unit and integration tests...'
-                docker exec -it c2c_marketplace_app python manage.py test
+                sh 'docker exec c2c_marketplace_app python manage.py test'
             }
         }
 
