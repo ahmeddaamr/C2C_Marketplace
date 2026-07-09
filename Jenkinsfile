@@ -14,10 +14,11 @@ pipeline {
                 //option 2
                 // checkout scm
                 //option 3
-                git branch: 'main',
+                git( 
+                    branch: 'main',
                     url: 'https://github.com/ahmeddaamr/C2C_Marketplace.git',
                     credentialsId: 'github-pat'
-            }
+            )}
         }
 
         stage('Build') {
