@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: c2c-marketplace
+  labels:
+    tier: app
+data:
+  DB_HOST: "db-service"
+  DB_PORT: "5432"
+  DB_USER: ahmed
+  DB_DB: C2CMarketplace

@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: c2c-marketplace-app-deployment
+  labels:
+    tier: app
+  namespace: c2c-marketplace
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: app
+  template:
+    metadata:
+      labels:
+        tier: app
+    spec:
+      containers:
+        - name: c2c-marketplace-app-container
+          image: ahmedamr25/c2c-marketplace:latest
+          ports:
+            - containerPort: 8000
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+          
+          envFrom:
+            - configMapRef:
+                name: app-config
+            - secretRef:
+                name: app-secret
+          
+          startupProbe:
+            httpGet:
+              path: /health/
+              port: 8000
+            periodSeconds: 5
+            failureThreshold: 12
+          readinessProbe:
+            httpGet:
+              path: /health/
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 3
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /health/
+              port: 8000
+            initialDelaySeconds: 20
+            periodSeconds: 20
+            timeoutSeconds: 3
+            failureThreshold: 3

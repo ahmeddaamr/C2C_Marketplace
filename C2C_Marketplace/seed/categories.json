@@ -1,0 +1,275 @@
+[
+    {
+        "model": "Products.category",
+        "pk": 1,
+        "fields": {
+            "name": "Vehicles",
+            "slug": "vehicles",
+            "parent": null,
+            "path": "1",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 2,
+        "fields": {
+            "name": "Cars",
+            "slug": "cars",
+            "parent": 1,
+            "path": "1/2",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 3,
+        "fields": {
+            "name": "Motorcycles",
+            "slug": "motorcycles",
+            "parent": 1,
+            "path": "1/3",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 4,
+        "fields": {
+            "name": "Properties",
+            "slug": "properties",
+            "parent": null,
+            "path": "4",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 5,
+        "fields": {
+            "name": "Apartments",
+            "slug": "apartments",
+            "parent": 4,
+            "path": "4/5",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 6,
+        "fields": {
+            "name": "Electronics",
+            "slug": "electronics",
+            "parent": null,
+            "path": "6",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 7,
+        "fields": {
+            "name": "Mobile Phones",
+            "slug": "mobile-phones",
+            "parent": 6,
+            "path": "6/7",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 8,
+        "fields": {
+            "name": "Laptops",
+            "slug": "laptops",
+            "parent": 6,
+            "path": "6/8",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 9,
+        "fields": {
+            "name": "Computers",
+            "slug": "computers",
+            "parent": 6,
+            "path": "6/9",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 10,
+        "fields": {
+            "name": "Gaming",
+            "slug": "gaming",
+            "parent": 6,
+            "path": "6/10",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 11,
+        "fields": {
+            "name": "Furniture",
+            "slug": "furniture",
+            "parent": null,
+            "path": "11",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 12,
+        "fields": {
+            "name": "Living Room",
+            "slug": "living-room",
+            "parent": 11,
+            "path": "11/12",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 13,
+        "fields": {
+            "name": "Bedroom",
+            "slug": "bedroom",
+            "parent": 11,
+            "path": "11/13",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 14,
+        "fields": {
+            "name": "Jobs",
+            "slug": "jobs",
+            "parent": null,
+            "path": "14",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 15,
+        "fields": {
+            "name": "Services",
+            "slug": "services",
+            "parent": null,
+            "path": "15",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 16,
+        "fields": {
+            "name": "Fashion",
+            "slug": "fashion",
+            "parent": null,
+            "path": "16",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 17,
+        "fields": {
+            "name": "Men Clothing",
+            "slug": "men-clothing",
+            "parent": 16,
+            "path": "16/17",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 18,
+        "fields": {
+            "name": "Women Clothing",
+            "slug": "women-clothing",
+            "parent": 16,
+            "path": "16/18",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 19,
+        "fields": {
+            "name": "Pets",
+            "slug": "pets",
+            "parent": null,
+            "path": "19",
+            "level": 1,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 20,
+        "fields": {
+            "name": "Dogs",
+            "slug": "dogs",
+            "parent": 19,
+            "path": "19/20",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    },
+    {
+        "model": "Products.category",
+        "pk": 21,
+        "fields": {
+            "name": "Cats",
+            "slug": "cats",
+            "parent": 19,
+            "path": "19/21",
+            "level": 2,
+            "icon": "",
+            "is_active": true
+        }
+    }
+]

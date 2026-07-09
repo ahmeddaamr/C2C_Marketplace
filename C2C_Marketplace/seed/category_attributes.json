@@ -1,0 +1,122 @@
+[
+    {
+        "model": "Products.categoryattribute",
+        "pk": 1,
+        "fields": {
+            "category_id": 2,
+            "name": "Brand",
+            "data_type": "choice",
+            "required": true,
+            "filterable": true,
+            "searchable": true
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 2,
+        "fields": {
+            "category_id": 2,
+            "name": "Model",
+            "data_type": "text",
+            "required": true,
+            "filterable": true,
+            "searchable": true
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 3,
+        "fields": {
+            "category_id": 2,
+            "name": "Year",
+            "data_type": "number",
+            "required": true,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 4,
+        "fields": {
+            "category_id": 2,
+            "name": "Mileage",
+            "data_type": "number",
+            "required": true,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 5,
+        "fields": {
+            "category_id": 2,
+            "name": "Transmission",
+            "data_type": "choice",
+            "required": true,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 6,
+        "fields": {
+            "category_id": 7,
+            "name": "Storage",
+            "data_type": "choice",
+            "required": true,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 7,
+        "fields": {
+            "category_id": 7,
+            "name": "Phone Color",
+            "data_type": "choice",
+            "required": false,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 8,
+        "fields": {
+            "category_id": 5,
+            "name": "Bedrooms",
+            "data_type": "number",
+            "required": true,
+            "filterable": true,
+            "searchable": false
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 9,
+        "fields": {
+            "category_id": 8,
+            "name": "Processor",
+            "data_type": "choice",
+            "required": true,
+            "filterable": true,
+            "searchable": true
+        }
+    },
+    {
+        "model": "Products.categoryattribute",
+        "pk": 10,
+        "fields": {
+            "category_id": 8,
+            "name": "RAM",
+            "data_type": "choice",
+            "required": true,
+            "filterable": true,
+            "searchable": true
+        }
+    }
+]

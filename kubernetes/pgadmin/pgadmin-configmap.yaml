@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pgadmin-config
+  namespace: c2c-marketplace
+  labels:
+    tier: pgadmin
+data:
+  POSTGRES_HOST: "db-service"
+  POSTGRES_PORT: "5432"
+  POSTGRES_USER: ahmed
+  POSTGRES_DB: C2CMarketplace
+  PGADMIN_DEFAULT_NAME: ahmed
+  PGADMIN_DEFAULT_EMAIL: ahmed@example.com

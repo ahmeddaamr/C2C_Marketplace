@@ -1,0 +1,156 @@
+[
+    {
+        "model": "Products.location",
+        "pk": 1,
+        "fields": {
+            "city": "Cairo",
+            "state": "Cairo",
+            "country": "Egypt",
+            "latitude": 30.0444,
+            "longitude": 31.2357
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 2,
+        "fields": {
+            "city": "Giza",
+            "state": "Giza",
+            "country": "Egypt",
+            "latitude": 30.0131,
+            "longitude": 31.2089
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 3,
+        "fields": {
+            "city": "Alexandria",
+            "state": "Alexandria",
+            "country": "Egypt",
+            "latitude": 31.2001,
+            "longitude": 29.9187
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 4,
+        "fields": {
+            "city": "Mansoura",
+            "state": "Dakahlia",
+            "country": "Egypt",
+            "latitude": 31.0364,
+            "longitude": 31.3807
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 5,
+        "fields": {
+            "city": "Port Said",
+            "state": "Port Said",
+            "country": "Egypt",
+            "latitude": 31.2653,
+            "longitude": 32.3019
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 6,
+        "fields": {
+            "city": "Ismailia",
+            "state": "Ismailia",
+            "country": "Egypt",
+            "latitude": 30.5965,
+            "longitude": 32.2715
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 7,
+        "fields": {
+            "city": "Suez",
+            "state": "Suez",
+            "country": "Egypt",
+            "latitude": 29.9668,
+            "longitude": 32.5498
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 8,
+        "fields": {
+            "city": "Tanta",
+            "state": "Gharbia",
+            "country": "Egypt",
+            "latitude": 30.7865,
+            "longitude": 31.0004
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 9,
+        "fields": {
+            "city": "Zagazig",
+            "state": "Sharqia",
+            "country": "Egypt",
+            "latitude": 30.5877,
+            "longitude": 31.5020
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 10,
+        "fields": {
+            "city": "Aswan",
+            "state": "Aswan",
+            "country": "Egypt",
+            "latitude": 24.0889,
+            "longitude": 32.8998
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 11,
+        "fields": {
+            "city": "Luxor",
+            "state": "Luxor",
+            "country": "Egypt",
+            "latitude": 25.6872,
+            "longitude": 32.6396
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 12,
+        "fields": {
+            "city": "Hurghada",
+            "state": "Red Sea",
+            "country": "Egypt",
+            "latitude": 27.2579,
+            "longitude": 33.8116
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 13,
+        "fields": {
+            "city": "Sharm El Sheikh",
+            "state": "South Sinai",
+            "country": "Egypt",
+            "latitude": 27.9158,
+            "longitude": 34.3299
+        }
+    },
+    {
+        "model": "Products.location",
+        "pk": 14,
+        "fields": {
+            "country": "Egypt",
+            "state": "Damietta",
+            "city": "Damietta",
+            "latitude": 31.4165,
+            "longitude": 31.8133
+        }
+    }
+]

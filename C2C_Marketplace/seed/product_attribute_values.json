@@ -1,0 +1,227 @@
+[
+    {
+        "model": "Products.productattributevalue",
+        "pk": 1,
+        "fields": {
+            "product_id": 1,
+            "attribute_id": 1,
+            "value": "Toyota"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 2,
+        "fields": {
+            "product_id": 1,
+            "attribute_id": 2,
+            "value": "Corolla"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 3,
+        "fields": {
+            "product_id": 1,
+            "attribute_id": 3,
+            "value": "2020"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 4,
+        "fields": {
+            "product_id": 1,
+            "attribute_id": 4,
+            "value": "65000"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 5,
+        "fields": {
+            "product_id": 1,
+            "attribute_id": 5,
+            "value": "Automatic"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 6,
+        "fields": {
+            "product_id": 2,
+            "attribute_id": 6,
+            "value": "256 GB"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 7,
+        "fields": {
+            "product_id": 3,
+            "attribute_id": 8,
+            "value": "3"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 8,
+        "fields": {
+            "product_id": 4,
+            "attribute_id": 1,
+            "value": "BMW"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 9,
+        "fields": {
+            "product_id": 4,
+            "attribute_id": 2,
+            "value": "320i"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 10,
+        "fields": {
+            "product_id": 4,
+            "attribute_id": 3,
+            "value": "2021"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 11,
+        "fields": {
+            "product_id": 4,
+            "attribute_id": 4,
+            "value": "41000"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 12,
+        "fields": {
+            "product_id": 4,
+            "attribute_id": 5,
+            "value": "Automatic"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 13,
+        "fields": {
+            "product_id": 5,
+            "attribute_id": 1,
+            "value": "Honda"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 14,
+        "fields": {
+            "product_id": 5,
+            "attribute_id": 2,
+            "value": "Civic"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 15,
+        "fields": {
+            "product_id": 5,
+            "attribute_id": 3,
+            "value": "2019"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 16,
+        "fields": {
+            "product_id": 5,
+            "attribute_id": 4,
+            "value": "87000"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 17,
+        "fields": {
+            "product_id": 5,
+            "attribute_id": 5,
+            "value": "Automatic"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 18,
+        "fields": {
+            "product_id": 7,
+            "attribute_id": 1,
+            "value": "Apple"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 19,
+        "fields": {
+            "product_id": 7,
+            "attribute_id": 10,
+            "value": "16 GB"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 20,
+        "fields": {
+            "product_id": 7,
+            "attribute_id": 6,
+            "value": "512 GB"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 21,
+        "fields": {
+            "product_id": 7,
+            "attribute_id": 9,
+            "value": "Apple M3"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 22,
+        "fields": {
+            "product_id": 8,
+            "attribute_id": 1,
+            "value": "Dell"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 23,
+        "fields": {
+            "product_id": 8,
+            "attribute_id": 10,
+            "value": "32 GB"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 24,
+        "fields": {
+            "product_id": 8,
+            "attribute_id": 6,
+            "value": "1 TB SSD"
+        }
+    },
+    {
+        "model": "Products.productattributevalue",
+        "pk": 25,
+        "fields": {
+            "product_id": 8,
+            "attribute_id": 9,
+            "value": "Intel Core i9"
+        }
+    }
+]

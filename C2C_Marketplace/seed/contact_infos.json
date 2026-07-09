@@ -1,0 +1,74 @@
+[
+    {
+        "model": "Products.contactinfo",
+        "pk": 1,
+        "fields": {
+            "name": "John Smith",
+            "phone_number": "+201001112233",
+            "contact_method": "both"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 2,
+        "fields": {
+            "name": "Sarah Ali",
+            "phone_number": "+201009998877",
+            "contact_method": "chat"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 3,
+        "fields": {
+            "name": "Ahmed Mohamed",
+            "phone_number": "+201011223344",
+            "contact_method": "phone"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 4,
+        "fields": {
+            "name": "Mohamed Hassan",
+            "phone_number": "+201015551111",
+            "contact_method": "phone"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 5,
+        "fields": {
+            "name": "Youssef Mostafa",
+            "phone_number": "+201015552222",
+            "contact_method": "chat"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 6,
+        "fields": {
+            "name": "Nour Ahmed",
+            "phone_number": "+201015553333",
+            "contact_method": "chat"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 7,
+        "fields": {
+            "name": "Omar Adel",
+            "phone_number": "+201015554444",
+            "contact_method": "phone"
+        }
+    },
+    {
+        "model": "Products.contactinfo",
+        "pk": 8,
+        "fields": {
+            "name": "Youssef Ali",
+            "phone_number": "+201015555555",
+            "contact_method": "phone"
+        }
+    }
+]

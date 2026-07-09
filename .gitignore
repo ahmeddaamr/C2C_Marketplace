@@ -1,0 +1,15 @@
+.env
+venv/
+
+*.sqlite3
+
+# requirements.txt
+
+Products_Service/
+Chat_Service/
+Search_Service/
+Notifications_Service/
+
+__pycache__/
+get_helm.sh
+# seed/

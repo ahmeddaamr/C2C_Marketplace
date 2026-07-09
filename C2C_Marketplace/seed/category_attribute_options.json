@@ -1,0 +1,106 @@
+[
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 1,
+        "fields": {
+            "attribute_id": 1,
+            "value": "Toyota"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 2,
+        "fields": {
+            "attribute_id": 1,
+            "value": "BMW"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 3,
+        "fields": {
+            "attribute_id": 1,
+            "value": "Mercedes"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 4,
+        "fields": {
+            "attribute_id": 5,
+            "value": "Automatic"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 5,
+        "fields": {
+            "attribute_id": 5,
+            "value": "Manual"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 6,
+        "fields": {
+            "attribute_id": 6,
+            "value": "128 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 7,
+        "fields": {
+            "attribute_id": 6,
+            "value": "256 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 8,
+        "fields": {
+            "attribute_id": 6,
+            "value": "512 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 9,
+        "fields": {
+            "attribute_id": 10,
+            "value": "16 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 10,
+        "fields": {
+            "attribute_id": 10,
+            "value": "8 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 11,
+        "fields": {
+            "attribute_id": 10,
+            "value": "32 GB"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 12,
+        "fields": {
+            "attribute_id": 9,
+            "value": "Ryzen 7735hs"
+        }
+    },
+    {
+        "model": "Products.categoryattributeoption",
+        "pk": 13,
+        "fields": {
+            "attribute_id": 9,
+            "value": "Intel i7-12700H"
+        }
+    }
+]

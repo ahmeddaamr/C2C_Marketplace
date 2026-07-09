@@ -1,0 +1,274 @@
+[
+    {
+        "model": "Products.product",
+        "pk": 1,
+        "fields": {
+            "owner_id": 8,
+            "title": "Toyota Corolla 2020",
+            "description": "Excellent condition.",
+            "payment_option": "cash",
+            "listing_type": "sale",
+            "is_negotiable": true,
+            "created_at": "2026-06-28T21:17:58Z",
+            "price": 520000,
+            "category_id": 2,
+            "location_id": 1,
+            "contactInfo_id": 1
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 2,
+        "fields": {
+            "owner_id": 2,
+            "title": "iPhone 15 Pro Max",
+            "description": "256GB, Blue Titanium",
+            "payment_option": "cash",
+            "listing_type": "sale",
+            "is_negotiable": true,
+            "created_at": "2026-01-12T09:14:32Z",
+            "price": 62000,
+            "category_id": 7,
+            "location_id": 3,
+            "contactInfo_id": 2
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 3,
+        "fields": {
+            "owner_id": 3,
+            "title": "Apartment in New Cairo",
+            "description": "180 sqm.",
+            "payment_option": "installments",
+            "listing_type": "sale",
+            "is_negotiable": true,
+            "created_at": "2026-01-27T16:48:05Z",
+            "price": 3500000,
+            "category_id": 5,
+            "location_id": 1,
+            "contactInfo_id": 3
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 4,
+        "fields": {
+            "owner_id": 4,
+            "title": "BMW 320i 2021",
+            "description": "Single owner_id, agency maintained.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-02-05T11:22:41Z",
+            "price": 980000,
+            "category_id": 2,
+            "location_id": 2,
+            "contactInfo_id": 4
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 5,
+        "fields": {
+            "owner_id": 8,
+            "title": "Honda Civic 2019",
+            "description": "Excellent condition.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-02-19T18:35:17Z",
+            "price": 670000,
+            "category_id": 2,
+            "location_id": 1,
+            "contactInfo_id": 1
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 6,
+        "fields": {
+            "owner_id": 2,
+            "title": "Hyundai Elantra 2022",
+            "description": "Like new.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-03-03T08:57:49Z",
+            "price": 820000,
+            "category_id": 2,
+            "location_id": 3,
+            "contactInfo_id": 2
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 7,
+        "fields": {
+            "owner_id": 3,
+            "title": "MacBook Pro M3",
+            "description": "16GB RAM, 512GB SSD.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-03-21T14:10:56Z",
+            "price": 93000,
+            "category_id": 8,
+            "location_id": 1,
+            "contactInfo_id": 3
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 8,
+        "fields": {
+            "owner_id": 6,
+            "title": "Dell XPS 15",
+            "description": "Core i9, RTX 4060.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-04-02T20:41:23Z",
+            "price": 76000,
+            "category_id": 8,
+            "location_id": 4,
+            "contactInfo_id": 6
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 9,
+        "fields": {
+            "owner_id": 7,
+            "title": "PlayStation 5",
+            "description": "2 Controllers.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-04-18T10:15:38Z",
+            "price": 28000,
+            "category_id": 10,
+            "location_id": 3,
+            "contactInfo_id": 7
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 10,
+        "fields": {
+            "owner_id": 8,
+            "title": "Xbox Series X",
+            "description": "Excellent condition.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-05-06T07:49:12Z",
+            "price": 22000,
+            "category_id": 10,
+            "location_id": 1,
+            "contactInfo_id": 8
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 11,
+        "fields": {
+            "owner_id": 4,
+            "title": "Office Desk",
+            "description": "Wooden office desk.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-05-20T13:58:44Z",
+            "price": 4500,
+            "category_id": 11,
+            "location_id": 8,
+            "contactInfo_id": 4
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 12,
+        "fields": {
+            "owner_id": 5,
+            "title": "Leather Sofa",
+            "description": "Imported leather.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-06-01T19:26:09Z",
+            "price": 18500,
+            "category_id": 12,
+            "location_id": 5,
+            "contactInfo_id": 5
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 13,
+        "fields": {
+            "owner_id": 3,
+            "title": "Apartment for Rent - Madinaty",
+            "description": "160 sqm.",
+            "listing_type": "rent",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-06-10T15:37:51Z",
+            "price": 18000,
+            "category_id": 5,
+            "location_id": 1,
+            "contactInfo_id": 3
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 14,
+        "fields": {
+            "owner_id": 2,
+            "title": "Villa for Sale - Sheikh Zayed",
+            "description": "450 sqm.",
+            "listing_type": "sale",
+            "payment_option": "installments",
+            "is_negotiable": true,
+            "created_at": "2026-06-15T12:08:27Z",
+            "price": 12000000,
+            "category_id": 5,
+            "location_id": 2,
+            "contactInfo_id": 2
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 15,
+        "fields": {
+            "owner_id": 7,
+            "title": "Golden Retriever Puppy",
+            "description": "3 months old.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-06-22T17:54:16Z",
+            "price": 12000,
+            "category_id": 20,
+            "location_id": 11,
+            "contactInfo_id": 7
+        }
+    },
+    {
+        "model": "Products.product",
+        "pk": 16,
+        "fields": {
+            "owner_id": 6,
+            "title": "British Shorthair Cat",
+            "description": "Vaccinated.",
+            "listing_type": "sale",
+            "payment_option": "cash",
+            "is_negotiable": true,
+            "created_at": "2026-06-26T09:31:40Z",
+            "price": 8500,
+            "category_id": 21,
+            "location_id": 3,
+            "contactInfo_id": 6
+        }
+    }
+]

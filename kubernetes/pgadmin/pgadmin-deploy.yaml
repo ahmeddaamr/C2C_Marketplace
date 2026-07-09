@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: c2c-marketplace-pgadmin-deployment
+  labels:
+    tier: pgadmin
+  namespace: c2c-marketplace
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: pgadmin
+  template:
+    metadata:
+      labels:
+        tier: pgadmin
+    spec:
+      containers:
+        - name: c2c-marketplace-pgadmin-container
+          image: dpage/pgadmin4:latest
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: pgadmin-config
+            - secretRef:
+                name: pgadmin-secret

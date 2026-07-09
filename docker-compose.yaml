@@ -1,0 +1,41 @@
+services:
+  
+  c2c_marketplace_app:
+    build:
+      context: ./C2C_Marketplace
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    # command: python manage.py runserver
+    ports:
+      - "8001:8000"
+    env_file:
+      .env
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres_db
+    restart: always
+    env_file:
+      .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  pgadmin:
+      image: dpage/pgadmin4
+      container_name: pgadmin_web
+      restart: always
+      env_file:
+        .env
+      ports:
+        - "5050:80"
+      volumes:
+        - pgadmin_data:/var/lib/pgadmin
+      depends_on:
+        - postgres
+
+volumes:
+  pgdata:
+  pgadmin_data:

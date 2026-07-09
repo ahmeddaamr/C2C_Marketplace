@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: c2c-marketplace-db-statefulset
+  namespace: c2c-marketplace
+  labels:
+    tier: db
+spec:
+  serviceName: db-service 
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: db
+  template:
+    metadata:
+      labels:
+        tier: db
+    spec:
+      containers:
+        - name: c2c-marketplace-db-container
+          image: postgres:16-alpine
+          ports:
+            - containerPort: 5432
+          envFrom:
+            - configMapRef:
+                name: db-config
+            - secretRef:
+                name: db-secret
+          volumeMounts:
+            - name: db-pvc
+              mountPath: /var/lib/postgresql/data    
+  volumeClaimTemplates:
+  - metadata:
+      name: db-pvc
+      labels:
+        tier: db
+    spec: 
+      accessModes: 
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 1Gi
+      volumeName: db-pv

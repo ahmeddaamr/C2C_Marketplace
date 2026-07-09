@@ -1,0 +1,122 @@
+[
+    {
+        "model": "Products.productimage",
+        "pk": 1,
+        "fields": {
+            "product_id": 1,
+            "image": "products/toyota_corolla1.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 2,
+        "fields": {
+            "product_id": 1,
+            "image": "products/toyota_corolla2.jpeg",
+            "order": 2,
+            "is_primary": false
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 3,
+        "fields": {
+            "product_id": 2,
+            "image": "products/iphone15.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 4,
+        "fields": {
+            "product_id": 3,
+            "image": "products/apartment_PKZH.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 5,
+        "fields": {
+            "product_id": 4,
+            "image": "products/bmw1.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 6,
+        "fields": {
+            "product_id": 4,
+            "image": "products/bmw2.jpeg",
+            "order": 2,
+            "is_primary": false
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 7,
+        "fields": {
+            "product_id": 4,
+            "image": "products/bmw3.jpeg",
+            "order": 3,
+            "is_primary": false
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 8,
+        "fields": {
+            "product_id": 7,
+            "image": "products/macbook1.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 9,
+        "fields": {
+            "product_id": 7,
+            "image": "products/macbook2.jpeg",
+            "order": 2,
+            "is_primary": false
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 10,
+        "fields": {
+            "product_id": 9,
+            "image": "products/ps5.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 11,
+        "fields": {
+            "product_id": 13,
+            "image": "products/apartment1.jpeg",
+            "order": 1,
+            "is_primary": true
+        }
+    },
+    {
+        "model": "Products.productimage",
+        "pk": 12,
+        "fields": {
+            "product_id": 13,
+            "image": "products/apartment2.jpeg",
+            "order": 2,
+            "is_primary": false
+        }
+    }
+]
