@@ -71,6 +71,7 @@ pipeline {
         }
 
         failure {
+            sh 'docker compose logs'
             echo 'Pipeline failed.'
         }
 
